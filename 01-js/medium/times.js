@@ -16,10 +16,10 @@ function SumOf(n) {
 }
 
 function calculateTime(n) {
-  const startTime = new Date();
+  const startTime = performance.now();
   SumOf(n);
-  const endTime = new Date();
+  const endTime = performance.now();
   return (endTime - startTime)/1000;
 }
 
-console.log(calculateTime(100));
+// console.log(calculateTime(100));
