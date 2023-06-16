@@ -11,4 +11,4 @@ function count(n) {
     }
     printCounter();
 }
-countUpToN(100);
+count(100);
